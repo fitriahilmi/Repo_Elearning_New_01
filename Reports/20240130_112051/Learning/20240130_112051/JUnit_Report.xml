@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Learning" time="21.517" tests="1" failures="0" errors="0">
+   <testsuite name="Learning" tests="1" failures="0" errors="0" time="21.517" skipped="0" timestamp="30-01-2024T11:21:21" hostname="Dika - DESKTOP-OBTCI7D" id="Test Suites/Learning">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Project_Elearning_01\\Repo_Elearning_New_01\\Reports\\20240130_112051\\Learning\\20240130_112051"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Project_Elearning_01\\Repo_Elearning_New_01\\Reports\\20240130_112051\\Learning\\20240130_112051\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-SebelumLogin.png, keyes\keyes-SetelahLogin.png"/>
+         <property name="hostName" value="Dika - DESKTOP-OBTCI7D"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.140.2"/>
+         <property name="sessionId" value="5a95ee0a820482e26b83188b62828391"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="21.219" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[30-01-2024T11:21:22 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+30-01-2024T11:21:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-01-2024T11:21:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-01-2024T11:21:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-01-2024T11:21:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-01-2024T11:21:25 - [TEST_STEP][PASSED] - navigateToUrl("http://130.211.243.37:96/login"): Navigate to 'http://130.211.243.37:96/login' successfully
+
+30-01-2024T11:21:34 - [MESSAGE][PASSED] - Navigate to 'http://130.211.243.37:96/login' successfully
+
+30-01-2024T11:21:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login  Elearning CMS/input_email"), "admin@indocyber.com"): Text 'admin@indocyber.com' is set on object 'Object Repository/Page_Login  Elearning CMS/input_email'
+
+30-01-2024T11:21:35 - [MESSAGE][PASSED] - Text 'admin@indocyber.com' is set on object 'Object Repository/Page_Login  Elearning CMS/input_email'
+
+30-01-2024T11:21:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login  Elearning CMS/input_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Page_Login  Elearning CMS/input_password'
+
+30-01-2024T11:21:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login  Elearning CMS/input_password'
+
+30-01-2024T11:21:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-01-2024T11:21:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-01-2024T11:21:38 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("SebelumLogin"): Taking screenshot successfully
+
+30-01-2024T11:21:39 - [MESSAGE][INFO] - 0 hidden object(s)
+
+30-01-2024T11:21:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-SebelumLogin.png]]
+
+30-01-2024T11:21:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login  Elearning CMS/button_Login")): Object: 'Object Repository/Page_Login  Elearning CMS/button_Login' is clicked on
+
+30-01-2024T11:21:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Elearning CMS/button_Login' is clicked on
+
+30-01-2024T11:21:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-01-2024T11:21:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-01-2024T11:21:42 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("SetelahLogin"): Taking screenshot successfully
+
+30-01-2024T11:21:43 - [MESSAGE][INFO] - 0 hidden object(s)
+
+30-01-2024T11:21:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-SetelahLogin.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-01-2024T11:21:21 - [TEST_SUITE][PASSED] - Learning: Test Cases/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

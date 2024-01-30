@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Learning,Chrome 120.0.0.0,,,30-01-2024 11:21:21,30-01-2024 11:21:43,21.517s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 120.0.0.0,,,30-01-2024 11:21:22,30-01-2024 11:21:43,21.219s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,30-01-2024 11:21:22,30-01-2024 11:21:25,2.694s,PASSED
+"navigateToUrl(""http://130.211.243.37:96/login"")",Chrome 120.0.0.0,,,30-01-2024 11:21:25,30-01-2024 11:21:34,8.991s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login  Elearning CMS/input_email""), ""admin@indocyber.com"")",Chrome 120.0.0.0,,,30-01-2024 11:21:34,30-01-2024 11:21:35,0.888s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login  Elearning CMS/input_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 120.0.0.0,,,30-01-2024 11:21:35,30-01-2024 11:21:35,0.444s,PASSED
+delay(3),Chrome 120.0.0.0,,,30-01-2024 11:21:35,30-01-2024 11:21:38,3.065s,PASSED
+"takeScreenshotAsCheckpoint(""SebelumLogin"")",Chrome 120.0.0.0,,,30-01-2024 11:21:38,30-01-2024 11:21:39,0.719s,PASSED
+"click(findTestObject(""Object Repository/Page_Login  Elearning CMS/button_Login""))",Chrome 120.0.0.0,,,30-01-2024 11:21:39,30-01-2024 11:21:39,0.424s,PASSED
+delay(3),Chrome 120.0.0.0,,,30-01-2024 11:21:39,30-01-2024 11:21:42,3.009s,PASSED
+"takeScreenshotAsCheckpoint(""SetelahLogin"")",Chrome 120.0.0.0,,,30-01-2024 11:21:42,30-01-2024 11:21:43,0.585s,PASSED
